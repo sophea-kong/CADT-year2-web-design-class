@@ -1,0 +1,28 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.message-box { 
+    background-color: white;
+    padding : 20px;
+    margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+}
+.read-more {
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    color: white;
+}
+.read-more:hover{
+    color: blue;
+}
+#orange-but {
+    background-color: orange;
+}
+#purple-but {
+    background-color: purple;
+}
+#teal-but {
+    background-color: teal;
+}
