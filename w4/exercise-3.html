@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            color : white;
+            font-weight: 200;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap : 1rem;
+            height: 100%;
+        }
+        
+        .header{
+            background-color: #1e90ff;
+            display: flex;
+            height: 3em;
+            box-shadow: 1px 1px #0077ea;
+            border-radius: 0.5rem;
+            flex-shrink: 0;
+        }
+        .middle{
+            display: flex;
+            flex-direction: row;
+            gap : 1em;
+            flex-grow: 1;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1em;
+            background-color: #3cb371;
+            flex-grow: 1;
+            border-radius: 0.5rem;
+            padding: 1em;
+        }
+        .item {
+            background-color: #2f8d59;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            border-radius: 0.5rem;
+        }
+        .side-bar {
+            background-color: #ff6347;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 0;
+            height: 100%;
+            width: 300px;
+            border-radius: 0.5rem;
+        }
+        .footer{
+            display: flex;
+            background-color: #4169e1;
+            height: 3em;
+            border-radius: 0.5rem;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="middle">
+            <div class="main"> 
+                <p style="width: 100%; height: 10px;">main</p>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+            </div>
+            <div class="side-bar">side bar</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
