@@ -1,0 +1,25 @@
+.card{
+    background-color: white;
+    padding: 20px;
+    box-shadow: grey 1px 1px 2px 2px;
+    display: grid;
+    gap :20px;
+    grid-template-rows: 200px 20px 240px 30px;
+}
+
+.container{
+    width: 1200px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+#card-1{
+    grid-column: span 2;
+}
+
+#card-6{
+    grid-column: span 2;
+}
