@@ -1,0 +1,7 @@
+.content-clamp {
+    width: clamp(300px, 100%, 800px); 
+    height: 400px; 
+    background-color: #90c337;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+}

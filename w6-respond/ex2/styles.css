@@ -1,0 +1,56 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 100px auto 40% 10%;
+    background-color: grey;
+    height: 100px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger > .help > div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (min-width:768px) {
+    .hamburger{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .hamburger{
+        justify-content: end;
+    }
+    .menu{
+        display: none;
+    }
+}
